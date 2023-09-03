@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Form Pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h1>
+    <form action="" method="post">
+        <!-- Form Nama -->
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" placeholder="Nama lengkap" required><br><br>
+        <!-- End Form Nama -->
+
+        <!-- Form Email -->
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Email aktif" required><br><br>
+        <!-- End Form Email -->
+
+        <!-- Form No HP -->
+        <label for="no_hp">No HP</label><br>
+        <input type="number" id="no_hp" placeholder="No HP aktif" required><br><br>
+        <!-- End Form No HP -->
+
+        <!-- Form Jenis Kelamin -->
+        <label for="jenis_kelamin">Jenis Kelamin</label><br>
+        <input type="radio" id="laki-laki" value="Laki-laki" name="jenis-kelamin" required>
+        <label for="laki-laki">Laki-laki</label><br>
+        <input type="radio" id="Perempuan" value="Perempuan" name="jenis-kelamin" required>
+        <label for="Perempuan">Perempuan</label><br><br>
+        <!-- End Form Jenis Kelamin -->
+
+        <!-- Form Prodi -->
+        <label for="prodi">Prodi</label><br>
+        <select name="prodi" id="prodi" required>
+            <option>Pilih</option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+        </select><br>
+        <!-- End Form Prodi -->
+
+        <!-- Form Hobi -->
+        <label for="hobi">Hobi</label><br>
+        <input type="checkbox" id="membaca" name="membaca" value="membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="menulis" name="menulis" value="menulis">
+        <label for="menulis">Menulis</label><br>
+        <input type="checkbox" id="menyanyi" name="menyanyi" value="menyanyi">
+        <label for="menyanyi">Menyanyi</label><br>
+        <input type="checkbox" id="olahraga" name="olahraga" value="olahraga">
+        <label for="olahraga">olahraga</label><br>
+        <!-- End Form Hobi -->
+
+        <!-- Form Alamat -->
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea><br>
+        <!-- End Form Alamat -->
+
+        <!-- Form Foto Diri -->
+        <label for="foto">Foto Diri</label><br>
+        <input type="file"><br>
+        <!-- End Form Foto Diri -->
+        <input type="submit" value="Daftar">
+
+    </form>
+</body>
+</html>
