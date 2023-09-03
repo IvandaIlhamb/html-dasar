@@ -1,0 +1,51 @@
+.konten {
+    width: 800px;
+    margin: auto;
+    border: 2px solid;
+    padding: 20px 10px 10px 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+.konten h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.warning{
+    width: 797px;
+    height: 50px;
+    margin: auto;
+    background-color: aqua;
+}
+.konten .warning p{
+    padding: 15px;
+    font-size: 20px;
+}
+.warning .bintang{
+    color: red;
+}
+
+
+.form .bintang{
+    color: red;
+}
+.input_box{
+    width: 40%;
+    height: 30px;
+}
+.form img{
+    padding-top: 10px;
+}
+.form .login{
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.konten_video{
+    position: absolute;
+    right: 95px;
+    bottom: 60px;
+}
+
