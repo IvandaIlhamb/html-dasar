@@ -1,0 +1,69 @@
+:root {
+    --palette1: #053B50;
+    --palette2: #176B87;
+    --palette3: #64CCC5;
+    --palette4: #64CCC5;
+    --palette5: #EEEEEE;
+  }
+body{
+    font-family: sans-serif;
+}
+.judul{
+    width: 100%;
+    padding: 3px;
+    color: var(--palette5);
+    background-color: var(--palette1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.daftar{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 435px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--palette5);
+    color: var(--palette2);
+}
+.konten-teks h2{
+    font-size: 14px;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+.kit{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+img{
+    /* width: 100%; */
+    width: 516px;
+    height: 530px;
+}
+.harga{
+    color: var(--palette1);
+}
+.btn-block{
+    width: 100%;
+    background-color: var(--palette2);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.btn-block:hover{
+    background-color: blue;
+    /* border-style: solid; */
+    color: beige;
+}
+.detail{
+    color: white;
+    text-decoration: none;
+}
