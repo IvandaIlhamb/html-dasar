@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../assests/css/login.css">
+    <link rel="stylesheet" href="../assests/css/login-responsive.css">
+</head>
+<body>
+    <div class="konten">
+        <h1>Silahkan masukkan informasi akun Anda untuk mengakses Dashboard</h1>
+        <img src="../assests/images/xampp.png" alt="logo" width="300"><br><br>
+        <div class="warning">
+            <p class="keterangan"><b class="bintang">*</b><b>Wajib diisi</b></p>
+        </div>
+        <div class="form">
+            <form action="" method="post">
+                <label for="username">Username<b class="bintang">*</b></label><br>
+                <input type="text" id="username" placeholder="Masukkan Username" class="input_box" required><br>
+                <label for="password">Password<b class="bintang">*</b></label><br>
+                <input type="password" id="password" placeholder="Masukkan Password" class="input_box" required><br>
+                <img src="../assests/images/captcha.png" alt="captcha" width="150"><br>
+                <label for="captcha">Captcha<b class="bintang">*</b></label><br>
+                <input type="text" id="captcha" placeholder="Masukkan Captcha" class="input_box" required><br><br>
+                <input type="submit" value="Login" class="login">
+            </form>
+        </div><br>
+        <div class="konten_video">
+            <iframe src="../assests/videos/video profil.mp4" frameborder="0" class="video_profil" allowfullscreen width="300px" height="210px"></iframe>
+        </div>
+    </div>
+    <script src="../assests/js/login.js"></script>
+</body>
+</html>
