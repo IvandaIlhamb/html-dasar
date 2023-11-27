@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product API</title>
+    <link rel="stylesheet" href="../assests/css/productapi.css">
+</head>
+<body>
+    <div class="judul">
+        <h1>Daftar Produk Kami</h1>
+    </div>
+
+    <div class="product">
+        <script>
+            let products = [
+              {
+                name: 'Liverpool Home Kit',
+                imageSrc: '../assests/images/liverpool.png',
+                description: 'Deskripsi singkat tentang produk ini.',
+                price: 'Rp 300.000',
+              },
+              {
+                name: 'Arsenal Home Kit',
+                imageSrc: '../assests/images/arsenal.png',
+                description: 'Deskripsi singkat tentang produk ini.',
+                price: 'Rp 150.000',
+              },
+              {
+                name: 'Barcelona Home Kit',
+                imageSrc: '../assests/images/barca.png',
+                description: 'Deskripsi singkat tentang produk ini.',
+                price: 'Rp 190.000',
+              },
+            ];
+
+            for (let i = 0; i < products.length; i++) {
+              document.write('<div class="card">');
+              document.write(
+                '<img src="' +
+                  products[i].imageSrc +
+                  '" alt="' +
+                  products[i].name +
+                  '" />',
+              );
+              document.write('<h2>' + products[i].name + '</h2>');
+              document.write('<p>' + products[i].description + '</p>');
+              document.write('<p class="harga">' + products[i].price + '</p>');
+              document.write('<a href="#">Selengkapnya</a>');
+              document.write('</div>');
+            }
+        </script>
+    </div>
+</body>
+</html>

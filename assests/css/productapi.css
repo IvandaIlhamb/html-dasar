@@ -1,0 +1,83 @@
+:root {
+    --palette1: #053B50;
+    --palette2: #176B87;
+    --palette3: #64CCC5;
+    --palette4: #64CCC5;
+    --palette5: #EEEEEE;
+  }
+body{
+    font-family: sans-serif;
+}
+.judul {
+    width: 100%;
+    padding: 3px;
+    color: var(--palette5);
+    background-color: var(--palette1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.product {
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    height: 430px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+}
+.card img {
+    width: 300px;
+    height: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #008080ff
+}
+
+/* Style untuk deskripsi produk */
+.card p {
+    font-size: 16px;
+    color: #000000;
+}
+.card .harga {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card a {
+    color: #008080ff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
